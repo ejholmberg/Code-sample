@@ -3,7 +3,7 @@
 ## OAG RAD Data Analyst Code Sample Repository
 
 ### Repository Contents
-*  _Main code sample_: `MSP_enrollment_plot.R`
+*  _Main code sample_: __`MSP_enrollment_plot.R`__
 *  _Other project files_: 
     * `MSP_data_cleaning.R` combines the primary data sources from the Center for Medicare & Medicaid Services, MassGIS, and the US Census Bureau into a usable format for generating plots, maps, and Shiny tools, as well as a [link to the processed dataset](https://drive.google.com/file/d/1C4G0NUO2CfAASyI3VD6w92veP3LbY5EO/view?usp=drive_link).
     * `plot_data.RData` is a smaller subset of the data produced in `MSP_data_cleaning.R` for the purpose of the code sample.
