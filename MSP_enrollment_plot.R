@@ -15,6 +15,7 @@ map_data <- plot_enrollment_pre |>
   left_join(plot_enrollment_post, 
             join_by(FIPS_STCO), 
             suffix = c("_pre", "_post")) |> 
+# Creating variable of interest `change`: enrollment from pre- to post-policy
   mutate(change = total_msp_per_100k_post - total_msp_per_100k_pre) |> 
   select(county_of_beneficiary_pre, 
          geometry_pre, 
